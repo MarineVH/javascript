@@ -11,4 +11,22 @@
 
 (() => {
     // your code here
+    let age = prompt("Quel âge as-tu?");
+    let sexe = prompt("Quel est ton sexe?");
+    let ville = prompt("De quelle ville viens-tu?");
+    let confirmation = confirm("Les informations sont-elles correctes: " + age + ", " + sexe + ", " + ville + "?");
+    
+    function questions() {
+        age = prompt("Quel âge as-tu?");
+        sexe = prompt("Quel est ton sexe?");
+        ville = prompt("De quelle ville viens-tu?");
+        confirmation = confirm("Les informations sont-elles correctes: " + age + ", " + sexe + ", " + ville + "?");
+    }
+
+    if (confirmation) {
+        console.log("saved");
+    }
+    else {
+        questions();
+    }
 })();

@@ -11,6 +11,6 @@
 
 (() => {
     // your code here
-    var hello = "Hello ,World!" ;
+    let hello = "Hello ,World!" ;
     alert (hello) ;
 })();

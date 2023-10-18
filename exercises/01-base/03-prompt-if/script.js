@@ -11,4 +11,12 @@
 
 (() => {
     // your code here
+    let gateau = prompt('Veux-tu du gâteau? oui/non');
+
+    if (gateau == "oui") {
+        alert ("Félicitation");
+    }
+    else {
+        alert ("Du gâteau, ça ne se refuse pas !")
+    }
 })();
