@@ -14,5 +14,8 @@
 
     document.getElementById("run").addEventListener("click", () => {
         // your code here
+        let number = parseFloat(document.getElementById("number").value);
+
+        
     });
 })();
